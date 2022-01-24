@@ -1,0 +1,73 @@
+
+/*********************\
+      Main Style
+\*********************/
+.self-style{
+    margin:10rem auto;
+}
+.common-color{
+    color: #E76F51;
+}
+
+.bg-button, .btn-buy-now{
+    background-color: #E76F51;
+}
+
+.panda-bg-info{
+    background-color: #FEEAE9;
+}
+
+.fsize{
+    font-size: 14px;
+}
+
+.hr-width{
+    width: 58px;
+}
+
+/*********************\
+    Optional Style
+\*********************/
+.bg-header{
+    background-color: #264653;
+    padding: 20px 0 0 0;
+}
+.width-100{
+    width: 102%;
+}
+.image-text-sec{
+    padding: 2rem 0 0 1rem;
+}
+.gray-image{
+    filter: grayscale(1);
+}
+.bg-sixth-main{
+    background-color: #e9e9ee;
+}
+.bg-footer{
+    background-color: #0B0D17;
+}
+
+.card{
+    border: none;
+}
+
+/*************************\
+    Custom Media Query
+\*************************/
+@media screen and (max-width: 768px) {
+    .header-image{
+        width: 321px;
+    }
+    .header-image-box{
+        width: 360px;
+    }
+    .header-text{
+        width: 321px;
+    }
+    .faq-image{
+        width: 270px;
+    }
+    
+    
+}
